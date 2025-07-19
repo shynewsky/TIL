@@ -81,5 +81,41 @@
 - 백업도 원활하게 한다
 
 <br>
+
+### ✅ Git Bash 는 왜 쓸까?
+
+<br>
+
+클라이언트와 서버를 연동하기 위해 사용하는 소프트웨어 이다
+
+Github Desktop 과 같은 역할을 하는데, CLI 명령어로 작동한다
+
+<br>
+
+### ✅ Github 는 뭘까?
+
+<br>
+
+'Git' 를 심고 '서버' 역할을 하는 또 다른 소프트웨어 이다
+
+이러한 것을 <ins>**원격 저장소(remote repository)**</ins> 라고 하는데,
+
+Github 외에 GitLab, Bitbucket 등 여러 원격 저장소가 존재한다
+
+<br>
+
+| |GitHub|GitLab|Bitbucket|
+|:---:|:---:|:---:|:---:|
+|소프트웨어|Git|Git|Git|
+|단점|공개/비공개 코드 모두 <br> Microsoft 가 가져간다 <br> 보완에 취약하다|서버를 직접 제작해야한다 <br> 회사들이 주로 사용한다 <br> (삼성 등 대기업)|서버를 직접 제작해야한다 <br> 5인이하 무료이다<br>스타트업이 주로 사용한다|
+|장점|오픈소스에 강하다<br>Django, Vue.js 등|배포,자동화,협업,이슈관리,보완<br>jira(유료) 무료 연동|배포,자동화,협업,이슈관리,보완<br>jira(유료) 무료 연동|
+
+<br>
+
+    단, "master" 명칭을 통일시켜야한다
+    
+    즉, Git 의 (master) == Github 의 Default Branch
+
+<br>
 <br>
 <br>
