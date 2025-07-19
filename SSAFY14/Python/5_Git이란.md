@@ -24,13 +24,13 @@
 
 <br>
 
-어떠한 방식으로든 기존 작업을 백업하는 것을 `'버전 관리'`라고 부르며
+어떠한 방식으로든 기존 작업을 백업하는 것을 <span style="color:lightgreen">**'버전 관리'**</span>라고 부르며
 
-프로젝트 작업에 버전 관리를 도와주는 소프트웨어를 `'버전 관리 시스템'`라고 부른다
+프로젝트 작업에 버전 관리를 도와주는 소프트웨어를 <span style="color:lightgreen">**'버전 관리 시스템'**</span>라고 부른다
 
 <br>
 
-'Git'은 `타임라인으로` 버전을 관리하는 시스템이다
+'Git'은 <span style="color:lightgreen">**타임라인으로**</span> 버전을 관리하는 시스템이다
 
 <br>
 
@@ -38,7 +38,7 @@
 
 <br>
 
-버전 관리 시스템 종류에는 `중앙집중식` 과 `분산식`이 있다
+버전 관리 시스템 종류에는 <span style="color:lightgreen">중앙집중식</span> 과 <span style="color:lightgreen">분산식</span> 이 있다
 
 | |중앙집중식|분산식|
 |:---:|:---:|:---:|
@@ -52,7 +52,7 @@
 
 <br>
 
-'Git'은 `분산식` 으로 버전을 관리하는 시스템이다
+'Git'은 <span style="color:lightgreen">분산식</span> 으로 버전을 관리하는 시스템이다
 
 <br>
 
@@ -60,9 +60,9 @@
 
 <br>
 
-'Git' 은 `타임라인`을 활용하여 `분산식`으로 버전을 관리하는
+'Git' 은 <span style="color:lightgreen">타임라인</span>을 활용하여 <span style="color:lightgreen">분산식</span>으로 버전을 관리하는
 
-'분산 버전 관리 시스템' 이다
+<span style="color:lightgreen">분산 버전 관리 시스템</span> 이다
 
 <br>
 
