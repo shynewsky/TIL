@@ -24,7 +24,8 @@
 
 <br>
 
-어떠한 방식으로든 기존 작업을 백업하는 것을 <code style="color : Greenyellow">**'버전 관리'**</code>라고 부르며
+어떠한 방식으로든 기존 작업을 백업하는 것을 $${\color{LightGreen}'버전 관리'}$$
+라고 부르며
 
 프로젝트 작업에 버전 관리를 도와주는 소프트웨어를 <span style="color:lightgreen">**'버전 관리 시스템'**</span>라고 부른다
 
