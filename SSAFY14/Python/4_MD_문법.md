@@ -71,6 +71,11 @@
 |`_글자_`|_ITALIC_|
 |`~~글자~~`|~~CANCEL~~|
 |`<ins>글자</ins>`|<ins>UNDER</ins>|
+|`$${\color{red}글자}$$`|$${\color{red}글자}$$|
+|`$${글\space자}$$`|$${글\space자}$$|
+
+
+
 
 <br>
 
