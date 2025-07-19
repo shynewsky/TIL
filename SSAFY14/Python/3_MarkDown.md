@@ -25,10 +25,14 @@
 ### ✅ 마크다운 파일 만들기
 
 1. `touch README.md` 로 파일 만들기
-2. VS Code 좌측 'Explorer' 아이콘 클릭해서 'README.md' 더블클릭해서 열기
-3. 'README.md' 우클릭해서 'Open Preview' 더블클릭해서 열기
-4. 'Preview README.md' 탭을 드래그하여 우측에 드롭한다
-5. 'README.md' 창과 'Preview README.md' 창이 좌우로 나란히 배치된 상태로 작업한다 
+
+3. VS Code 좌측 'Explorer' 아이콘 클릭해서 'README.md' 더블클릭해서 열기
+
+5. 'README.md' 우클릭해서 'Open Preview' 더블클릭해서 열기
+
+7. 'Preview README.md' 탭을 드래그하여 우측에 드롭한다
+
+9. 'README.md' 창과 'Preview README.md' 창이 좌우로 나란히 배치된 상태로 작업한다 
 
 <br>
 <br>
