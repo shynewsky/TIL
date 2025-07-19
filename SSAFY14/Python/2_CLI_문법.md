@@ -37,6 +37,8 @@
 |:---:|:---|
 |touch|파일 만들기|
 |mkdir|폴더 만들기 (make directory)|
+|rm|파일 삭제(remove)|
+|rmdir|폴더 삭제 (remove directory)|
 
 <br>
 
