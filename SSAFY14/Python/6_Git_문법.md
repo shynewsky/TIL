@@ -31,17 +31,17 @@
 ### ✅ 작업내역 이동하기
 
 | | |
-|:---:|:---:|
+|:---|:---|
 |git add|WD→Stage 로 작업 내역 올리기|
 |git commit|Stage→Repo 로 작업 내역 저장하기|
-|git commit -m '메세지'|Stage→Repo 로 작업 내역과 메세지 저장하기|
+|git commit -m '메시지'|Stage→Repo 로 작업 내역과 메시지 저장하기|
 
 <br>
 
 ### ✅ 작업내역 확인하기
 
 | | |
-|:---:|:---:|
+|:---|:---|
 |git status|Stage 에 올라온  작업 내역 확인하기  (commit 하기 전 사용)|
 |git log|Repo 에 저장된 작업 내역 확인하기 (commit 한 후 사용)|
 
@@ -50,9 +50,9 @@
 ### ✅ 작업내역 비교하기
 
 | | |
-|:---:|:---:|
+|:---|:---|
 |git diff|Stage 에 올라온 작업 내역 비교하기|
-|git log --oneline|Repo 에 저장된 작업 내역 비교하기|
+|git log --oneline|Repo 에 저장된 작업 내역 비교하기(한줄로 요약)|
 
 <br>
 <br>
@@ -66,7 +66,7 @@
 
 3. Public / Private 을 선택한다
 
-4. 로컬저장소에서 먼저 프로젝트를 만든 경우에는 <br> README.md 를 로컬저장소에서 먼저 만들고, <br> 원격저장소에서 먼저 프로젝트를 만든 경우에는 <br> README.md 를 원격저장소에서 추가를 한다
+4. 로컬저장소에서 먼저 프로젝트를 만든 경우에는 README.md 를 로컬저장소에서 먼저 만들고, <br> 원격저장소에서 먼저 프로젝트를 만든 경우에는 README.md 를 원격저장소에서 추가를 한다
 
 5. 나머지 설정은 그대로 유지한 상태로 생성한다.
 
@@ -75,7 +75,7 @@
 ### ▶️ 원격저장소 계정 등록하기
 
 | | |
-|:---:|:---:|
+|:---|:---|
 |git config|git에 사용자 정보 전달|
 |git config --global user.email "이메일주소"|github 아이디 등록|
 |git config --global user.name "사용자이름"|github 사용자 등록|
@@ -85,14 +85,14 @@
 ### ▶️ 로컬저장소와 원격저장소 연동하기
 
 | | |
-|:---:|:---:|
+|:---|:---|
 |git remote add 별칭 원격저장소링크|로컬저장소를 원격저장소로 업로드|
 |git clone remote 원격저장소링크|원격저장소를 로컬저장소로 다운로드|
 
 <br>
 
 | | |
-|:---:|:---:|
+|:---|:---|
 |git remote -v|원격저장소로 올린 내용 확인|
 |git remote remove 별칭|원격저장소로 올린 내용 삭제|
 
@@ -101,7 +101,7 @@
 ### ▶️ 변경사항 업로드하고 다운로드하기
 
 | | |
-|:---:|:---:|
+|:---|:---|
 |git push 별칭 master|로컬저장소 변경사항을 원격저장소에 업로드|
 |git pull 별칭 master|원격저장소 변경사항을 로컬저장소에 다운로드|
 
@@ -114,31 +114,40 @@
 |touch .gitignore|.gitignore 파일 생성|
 
     원격저장소에 push를 해도 업로드가 되지 않는 파일이다
-    공개하면 안되는 key와 같은 내용을 
-    파일과 폴더 경로로 만들고
-    .gitignore 파일 안에 적어두면
+    공개하면 안되는 key와 같은 파일과 폴더경로를 .gitignore 파일 안에 적어두면
     해당 파일과 폴더 경로는 push할떄 무시된다 
 
 <br>
+<br>
+<br>
 
-### ✴️ 특정 중간과정을 취소해야 할 떄
+### ☑️ 가장 최신 버전을 수정해야 할떄
 
 | | |
-|:---:|:---:|
-|git commit --amend|2|
-|git revert|2|
-|git reset|2|
+|:---|:---|
+|git commit --amend -m "새 메시지"|가장 최신 버전의 메시지 변경하기|
+|git add 변경사항 <br>git commit --amend|가장 최신 버전을 덮어씌우기|
+|git add 변경사항 <br>git commit --amend -m "새 메시지"|가장 최신 버전을 덮어씌우고, 메시지 변경하기|
 
 <br>
 
+### ☑️ 타임라인 특정 지점(버전)을 수정해야 할때
+
 | | |
-|:---:|:---:|
-|git revert|2|
-|git revert no-edit|2|
-|git revert no-commit|2|
+|:---|:---|
+|git revert #|특정 변경사항을 없애고, 저장됨. 직접 메시지 남겨야함|
+|git revert no-edit #|특정 변경사항을 없애고, 저장됨. 자동으로 메시지를 남겨줌|
+|git revert no-commit #|특정 변경사항을 없앰. 직접 저장하고 메시지 남겨야함|
 
+<br>
 
+### ☑️ 타임라인 특정 지점(버전)까지 모든 작업을 취소해야할 때
 
+| | |
+|:---|:---|
+|git reset --soft #|Repo→SA 으로, 저장 직전(commit 직전)까지 시간을 되돌림|
+|git reset --mixed #|Repo→WD 로, 작업 직후(add 직전)까지 시간을 되돌림(기본옵션)|
+|git reset --hard #|Repo→WD 로, 작업 직전까지 시간을 되돌림|
 
 <br>
 <br>

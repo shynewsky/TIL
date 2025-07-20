@@ -37,6 +37,7 @@
 |:---:|:---|
 |touch|파일 만들기|
 |mkdir|폴더 만들기 (make directory)|
+| | |
 |rm|파일 삭제(remove)|
 |rmdir|폴더 삭제 (remove directory)|
 
@@ -48,9 +49,7 @@
 |:---:|:---|
 |ls|현재 디렉토리 내 파일 리스트 (list)|
 |pwd|현재 디렉토리까지 폴더 리스트 (print working directory)|
-
 | | |
-|:---:|:---|
 |ls -a|현재 디렉토리 내 숨겨진 파일을 포함한 파일 리스트|
 |pwd -a|(없는 문법)|
 
