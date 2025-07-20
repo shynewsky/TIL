@@ -72,7 +72,7 @@
 |`~~글자~~`|~~CANCEL~~|
 |`<ins>글자</ins>`|<ins>UNDER</ins>|
 |`$${글\space자}$$`|$${글\space자}$$|
-|`$${\color{ff0000}글자}$$`|$${\color{ff0000}글자}$$|
+|`$${\color{red}글자}$$`|$${\color{red}글자}$$|
 |`$\textsf{\color{#ff0000}{글자}}$`|$\textsf{\color{#ff0000}{글자}}$|
 
 <br>
