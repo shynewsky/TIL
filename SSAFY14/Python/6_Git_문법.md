@@ -125,17 +125,17 @@
 
 | | |
 |:---:|:---:|
-|git amend|타임라인의 가장 최신 버전만 수정 가능|
-|git revert|타임라인의 특정 시점만 골라 저장을 취소하고 자동메세지를 남김|
-|git reset|타임라인의 특정 버전까지 작업을 취소한다(ctrl z와 같은 기능)|
+|git commit --amend|2|
+|git revert|2|
+|git reset|2|
 
 <br>
 
 | | |
 |:---:|:---:|
-|git revert|Repo→WD 로 특정 변경사항을 작업 <ins>**직전**</ins>으로 되돌리고, <br>되돌린 버전을 저장하고, 메세지를 직접 작성한다|
-|git revert no-edit|Repo→WD 로 특정 변경사항을 작업 <ins>**직전**</ins>으로 되돌리고, <br>되돌린 버전을 저장하고, 메세지를 자동으로 작성해준다|
-|git revert no-commit|Repo→SA 로 특정 변경사항을 작업 <ins>**직후**</ins>로 되돌리고, <br>되돌린 버전을 저장하지 않아, 직접 commit 을 해야한다|
+|git revert|2|
+|git revert no-edit|2|
+|git revert no-commit|2|
 
 
 
