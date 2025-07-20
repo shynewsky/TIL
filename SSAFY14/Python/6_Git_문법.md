@@ -150,5 +150,14 @@
 |git reset --hard #|Repo→WD 로, 작업 직전까지 시간을 되돌림|
 
 <br>
+
+### ☑️ 그 외 타임라인 수정 방법
+
+| | |
+|:---|:---|
+|git restore|SA→WD 으로, add 한 상태를 되돌릴 수 있다<br>ctrl z와 같은 역할이지만, ctrl shrt z을 할 수 없다(비추)|
+|git rm --cached|(1) SA에서 사용하면 WD로 내린다 (git restore와 같음) <br>(2) Repo에서 사용하면 작업은 그대로 남고 타임라인 기록만 삭제된다|
+
+<br>
 <br>
 <br>
